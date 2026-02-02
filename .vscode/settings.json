@@ -1,0 +1,20 @@
+{
+  "css.lint.unknownAtRules": "ignore",
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "ts"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "deno.enable": true,
+  "deno.enablePaths": [
+    "./supabase/functions/server"
+  ],
+  "deno.lint": true,
+  "deno.unstable": [],
+  "deno.suggest.imports.hosts": {
+    "https://deno.land": true,
+    "https://esm.sh": true,
+    "https://jsr.io": true
+  }
+}

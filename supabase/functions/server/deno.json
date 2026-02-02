@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "hono": "jsr:@hono/hono",
+    "cors": "jsr:@hono/hono/cors",
+    "logger": "jsr:@hono/hono/logger"
+  }
+}
